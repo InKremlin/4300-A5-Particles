@@ -1,4 +1,4 @@
-import { default as gulls } from '../../gulls.js'
+import { default as gulls } from './gulls.js'
 
 const sg = await gulls.init(),
       render_shader  = await gulls.import( './render.wgsl' ),
